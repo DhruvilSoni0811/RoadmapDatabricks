@@ -1,0 +1,299 @@
+# Databricks Learning Roadmap
+
+A comprehensive, structured learning path for mastering Databricks from fundamentals to advanced concepts. This roadmap is designed for data engineers, data scientists, and analysts looking to build expertise in the Databricks Lakehouse platform.
+
+##  Table of Contents
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Learning Path](#learning-path)
+- [Getting Started](#getting-started)
+- [Certification Path](#certification-path)
+- [Contributing](#contributing)
+- [Resources](#resources)
+- [License](#license)
+
+##  Overview
+
+This learning roadmap provides a systematic approach to mastering Databricks, covering everything from basic concepts to advanced implementation patterns. The curriculum is organized into 20 comprehensive modules, each focusing on critical aspects of the Databricks platform.
+
+### What You'll Learn
+
+- Databricks platform architecture and workspace management
+- Delta Lake and lakehouse architecture patterns
+- PySpark for distributed . processing
+- Data engineering pipelines and ETL workflows
+- Unity Catalog for data governance
+- Machine learning workflows with MLflow
+- Performance optimization and cost management
+- Production-grade deployment strategies
+
+##  Prerequisites
+
+Before starting this learning path, you should have:
+
+- **SQL Knowledge**: Strong understanding of SQL fundamentals (DDL, DML, DQL, joins, aggregations)
+- **Python Basics**: Familiarity with Python programming (recommended but not required for SQL-focused roles)
+- **Cloud Fundamentals**: Basic understanding of cloud storage concepts (S3, Azure Blob Storage, or GCS)
+- **Data Concepts**: Understanding of data warehousing, ETL, and basic data engineering principles
+
+##  Learning Path
+
+### **1. Databricks Fundamentals**
+- Platform architecture and components
+- Workspace navigation and organization
+- Cluster creation, configuration, and management
+- Notebook basics and collaboration features
+- Databricks Runtime and Unity Catalog overview
+
+### **2. Delta Lake Basics**
+- Delta Lake architecture and benefits
+- Creating and managing Delta tables
+- ACID transactions and reliability guarantees
+- Time travel and data versioning
+- Delta Lake optimization techniques (OPTIMIZE, Z-ORDER)
+- Vacuum operations for storage management
+
+### **3. Databricks SQL & SQL Warehouse**
+- SQL Warehouse architecture and configuration
+- Query development and execution
+- Performance monitoring and optimization
+- Dashboard creation and visualization
+- Scheduled queries and alerting
+
+### **4. PySpark Fundamentals**
+- PySpark DataFrame API
+- Data source integrations (CSV, JSON, Parquet, Delta)
+- Core transformations (select, filter, withColumn, drop)
+- Actions and lazy evaluation
+- Writing data in various formats
+
+### **5. Advanced PySpark Operations**
+- Join strategies and optimization
+- GroupBy operations and aggregations
+- Window functions for analytical queries
+- User-Defined Functions (UDFs) and performance considerations
+- Broadcast variables and accumulators
+- Null handling and data quality checks
+
+### **6. Data Ingestion Patterns**
+- Auto Loader for incremental file ingestion
+- Batch vs streaming ingestion strategies
+- Change Data Capture (CDC) implementation
+- Cloud storage integration (S3, ADLS, GCS)
+- COPY INTO for efficient bulk loading
+
+### **7. Unity Catalog**
+- Three-level namespace architecture (catalog.schema.table)
+- Catalog and schema management
+- External locations and storage credentials
+- Managed vs external table strategies
+- Data lineage and governance
+- Cross-workspace data sharing
+
+### **8. Access Control & Security**
+- Table-level access control (GRANT/REVOKE)
+- Row-level and column-level security
+- Dynamic views for data masking
+- Service principals and authentication
+- Secrets management best practices
+- Workspace and resource permissions
+
+### **9. Delta Live Tables (DLT)**
+- DLT pipeline architecture
+- Declarative pipeline development
+- Streaming and materialized views
+- Data quality expectations
+- Change Data Capture with DLT
+- Pipeline monitoring and observability
+
+### **10. Workflows & Jobs**
+- Job creation and configuration
+- Task orchestration and dependencies
+- Cluster strategies (job vs all-purpose)
+- Parameterization with widgets
+- Notifications and alerting
+- Debugging and troubleshooting
+
+### **11. Performance Optimization**
+- Cluster sizing and autoscaling strategies
+- Partitioning and bucketing
+- Caching and persistence patterns
+- Adaptive Query Execution (AQE)
+- Photon acceleration engine
+- Spark UI analysis and query profiling
+
+### **12. Medallion Architecture**
+- Bronze layer: raw data ingestion
+- Silver layer: cleaned and validated data
+- Gold layer: business-level aggregations
+- Implementation patterns and best practices
+- Data quality validation across layers
+
+### **13. Machine Learning on Databricks**
+- MLflow experiment tracking
+- Feature Store for feature management
+- AutoML for automated model development
+- Model registry and versioning
+- Model deployment and serving
+- ML framework integration
+
+### **14. Databricks CLI & APIs**
+- CLI installation and configuration
+- REST API fundamentals
+- Workspace automation
+- CI/CD pipeline integration
+- Infrastructure as Code with Terraform
+
+### **15. Streaming with Structured Streaming**
+- Streaming architecture concepts
+- Readstream and writestream operations
+- Trigger modes and processing guarantees
+- Watermarking for late data handling
+- Streaming joins and deduplication
+- Stateful operations
+
+### **16. Advanced Delta Lake Features**
+- MERGE operations for upserts
+- DELETE and UPDATE operations
+- Change Data Feed (CDF) for data tracking
+- Liquid clustering for optimization
+- Deletion vectors
+- Table cloning (shallow and deep)
+
+### **17. Databricks Asset Bundles (DABs)**
+- Infrastructure as Code for Databricks
+- Bundle structure and configuration
+- Multi-environment deployments
+- Version control integration
+- CI/CD automation
+
+### **18. Monitoring & Observability**
+- System tables for usage analysis
+- Billing and cost optimization
+- Cluster monitoring and logs
+- Query history analysis
+- Alert configuration
+- Third-party monitoring integration
+
+### **19. Integration Patterns**
+- JDBC connections to external databases
+- BI tool integration (Power BI, Tableau, Looker)
+- Partner Connect ecosystem
+- Event-driven architecture patterns
+- Lakehouse Federation
+
+### **20. Best Practices & Governance**
+- Naming conventions and standards
+- Code organization and modularity
+- Testing strategies for data pipelines
+- Documentation approaches
+- Data retention and lifecycle policies
+- Disaster recovery planning
+
+##  Getting Started
+
+### Step 1: Set Up Your Environment
+
+1. **Create a Databricks Account**
+   - Sign up for [Databricks Community Edition](https://community.cloud.databricks.com/) (free tier)
+   - Or request access to your organization's Databricks workspace
+
+2. **Familiarize Yourself with the Interface**
+   - Explore the workspace structure
+   - Create your first notebook
+   - Understand cluster management
+
+### Step 2: Follow the Learning Path
+
+1. Start with Module 1 (Databricks Fundamentals)
+2. Complete each module sequentially
+3. Practice concepts in your Databricks workspace
+4. Build small projects to reinforce learning
+
+### Step 3: Hands-On Practice
+
+- Work with real datasets (Kaggle, public datasets)
+- Build end-to-end data pipelines
+- Experiment with different optimization techniques
+- Document your learning journey
+
+##  Certification Path
+
+Databricks offers several certification paths to validate your skills:
+
+1. **Databricks Certified Data Engineer Associate**
+   - Entry-level certification
+   - Covers Databricks fundamentals, Delta Lake, and basic PySpark
+   
+2. **Databricks Certified Data Engineer Professional**
+   - Advanced certification
+   - Focuses on production-grade implementations and optimization
+
+3. **Databricks Certified Machine Learning Associate**
+   - ML-focused certification
+   - Covers MLflow, Feature Store, and model deployment
+
+4. **Databricks Certified Machine Learning Professional**
+   - Advanced ML certification
+   - Production ML systems and advanced techniques
+
+##  Contributing
+
+Contributions to improve this learning roadmap are welcome! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -am 'Add new learning resource'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Create a Pull Request
+
+### Contribution Ideas
+
+- Add practical examples for each module
+- Share useful resources and tutorials
+- Suggest improvements to the learning sequence
+- Report issues or outdated information
+
+##  Resources
+
+### Official Documentation
+- [Databricks Documentation](https://docs.databricks.com/)
+- [Delta Lake Documentation](https://docs.delta.io/)
+- [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
+
+### Community Resources
+- [Databricks Community Forums](https://community.databricks.com/)
+- [Databricks Academy](https://www.databricks.com/learn/training)
+- [Databricks Blog](https://www.databricks.com/blog)
+
+### Practice Platforms
+- [Databricks Community Edition](https://community.cloud.databricks.com/)
+- [Databricks Notebooks Gallery](https://docs.databricks.com/notebooks/gallery.html)
+
+##  License
+
+This learning roadmap is released under the MIT License. See [LICENSE](LICENSE) file for details.
+
+---
+
+##  Tips for Success
+
+- **Practice Consistently**: Hands-on experience is crucial for mastering Databricks
+- **Build Projects**: Apply concepts to real-world scenarios
+- **Join the Community**: Engage with other learners and practitioners
+- **Stay Updated**: Databricks evolves rapidly; follow release notes and announcements
+- **Document Your Learning**: Keep notes and code samples for future reference
+
+##  Support
+
+For questions or support:
+- Open an issue in this repository
+- Join the [Databricks Community Forums](https://community.databricks.com/)
+- Connect with other learners on LinkedIn or professional networks
+
+---
+
+**Happy Learning! **
+
+*Remember: The journey from beginner to expert takes time. Be patient, stay curious, and keep building.*
