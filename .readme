@@ -2,7 +2,7 @@
 
 A comprehensive, structured learning path for mastering Databricks from fundamentals to advanced concepts. This roadmap is designed for data engineers, data scientists, and analysts looking to build expertise in the Databricks Lakehouse platform.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
@@ -13,7 +13,7 @@ A comprehensive, structured learning path for mastering Databricks from fundamen
 - [Resources](#resources)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 This learning roadmap provides a systematic approach to mastering Databricks, covering everything from basic concepts to advanced implementation patterns. The curriculum is organized into 20 comprehensive modules, each focusing on critical aspects of the Databricks platform.
 
@@ -21,14 +21,14 @@ This learning roadmap provides a systematic approach to mastering Databricks, co
 
 - Databricks platform architecture and workspace management
 - Delta Lake and lakehouse architecture patterns
-- PySpark for distributed data processing
+- PySpark for distributed . processing
 - Data engineering pipelines and ETL workflows
 - Unity Catalog for data governance
 - Machine learning workflows with MLflow
 - Performance optimization and cost management
 - Production-grade deployment strategies
 
-## 📚 Prerequisites
+##  Prerequisites
 
 Before starting this learning path, you should have:
 
@@ -37,7 +37,7 @@ Before starting this learning path, you should have:
 - **Cloud Fundamentals**: Basic understanding of cloud storage concepts (S3, Azure Blob Storage, or GCS)
 - **Data Concepts**: Understanding of data warehousing, ETL, and basic data engineering principles
 
-## 🗺️ Learning Path
+##  Learning Path
 
 ### **1. Databricks Fundamentals**
 - Platform architecture and components
@@ -191,7 +191,7 @@ Before starting this learning path, you should have:
 - Data retention and lifecycle policies
 - Disaster recovery planning
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Step 1: Set Up Your Environment
 
@@ -218,7 +218,7 @@ Before starting this learning path, you should have:
 - Experiment with different optimization techniques
 - Document your learning journey
 
-## 🎓 Certification Path
+##  Certification Path
 
 Databricks offers several certification paths to validate your skills:
 
@@ -238,7 +238,7 @@ Databricks offers several certification paths to validate your skills:
    - Advanced ML certification
    - Production ML systems and advanced techniques
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions to improve this learning roadmap are welcome! Please follow these guidelines:
 
@@ -255,7 +255,7 @@ Contributions to improve this learning roadmap are welcome! Please follow these 
 - Suggest improvements to the learning sequence
 - Report issues or outdated information
 
-## 📖 Resources
+##  Resources
 
 ### Official Documentation
 - [Databricks Documentation](https://docs.databricks.com/)
@@ -271,13 +271,13 @@ Contributions to improve this learning roadmap are welcome! Please follow these 
 - [Databricks Community Edition](https://community.cloud.databricks.com/)
 - [Databricks Notebooks Gallery](https://docs.databricks.com/notebooks/gallery.html)
 
-## 📄 License
+##  License
 
 This learning roadmap is released under the MIT License. See [LICENSE](LICENSE) file for details.
 
 ---
 
-## 💡 Tips for Success
+##  Tips for Success
 
 - **Practice Consistently**: Hands-on experience is crucial for mastering Databricks
 - **Build Projects**: Apply concepts to real-world scenarios
@@ -285,7 +285,7 @@ This learning roadmap is released under the MIT License. See [LICENSE](LICENSE) 
 - **Stay Updated**: Databricks evolves rapidly; follow release notes and announcements
 - **Document Your Learning**: Keep notes and code samples for future reference
 
-## 📞 Support
+##  Support
 
 For questions or support:
 - Open an issue in this repository
@@ -294,6 +294,6 @@ For questions or support:
 
 ---
 
-**Happy Learning! 🎉**
+**Happy Learning! **
 
 *Remember: The journey from beginner to expert takes time. Be patient, stay curious, and keep building.*
