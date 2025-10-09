@@ -1,7 +1,7 @@
 # Topics covered in the document...
 
 1. [What is Databricks and its architecture?](#1-what-is-databricks-and-its-architecture?)
-2. [Accounts and worspace architecture](#2-accounts-and-workspace-architecture)
+2. [Accounts and workspace architecture](#2-accounts-and-workspace-architecture)
 3. [Databricks workspace navigation](#3-databricks-workspace-navigation)
 4. [Clusters: creation, configuration, and management](#4-clusters-creation-configuration-and-management)
 5. [Notebooks: creating, organizing, and sharing](#5-notebooks-creating-organizing-and-sharing)
