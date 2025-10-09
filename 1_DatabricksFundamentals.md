@@ -1,10 +1,11 @@
 # Topics covered in the document...
 
 1. [What is Databricks and its architecture?](#1-what-is-databricks-and-its-architecture?)
-2. [Databricks workspace navigation](#2-databricks-workspace-navigation)
-3. [Clusters: creation, configuration, and management](#3-clusters-creation-configuration-and-management)
-4. [Notebooks: creating, organizing, and sharing](#4-notebooks-creating-organizing-and-sharing)
-5. [Databricks Runtime and Unity Catalog overview](#5-databricks-runtime-and-unity-catalog-overview)
+2. [Accounts and worspace architecture](#2-accounts-and-workspace-architecture)
+3. [Databricks workspace navigation](#3-databricks-workspace-navigation)
+4. [Clusters: creation, configuration, and management](#4-clusters-creation-configuration-and-management)
+5. [Notebooks: creating, organizing, and sharing](#5-notebooks-creating-organizing-and-sharing)
+6. [Databricks Runtime and Unity Catalog overview](#6-databricks-runtime-and-unity-catalog-overview)
 
 
 
@@ -47,21 +48,40 @@ Workspaces: Isolated environments for organizing notebooks, libraries, and dashb
 - Delta Lake: Storage layer that brings reliability to data lakes (ACID transactions, time travel, schema enforcement)
 - Unity Catalog: Centralized governance and metadata management across all workspaces
 - DBFS (Databricks File System): Abstraction layer over cloud storage
-## 2. Databricks Workspace Navigation
+
+## 2. Accounts and Workspace Architecture
+
+### Answer
+Account: 
+The Databricks account represents the top-level management entity that is linked with a cloud provider account — such as an Azure subscription, AWS account, or GCP project.
+It defines where billing, governance, and workspace management are handled.
+In Azure, this means your Databricks setup is tied to your Azure subscription, and all Databricks resources are billed through Azure.
+
+Workspace:
+A Databricks workspace is a dedicated environment within your cloud account where teams can collaborate, write code, build data pipelines, and run machine learning models.
+- Each workspace provides access to:
+- Notebooks and repos for development
+- Compute resources (clusters, jobs)
+- Access control via Azure Active Directory or IAM
+
+Workspaces are typically created per team, project, or environment (e.g., dev, test, prod) and allow users like Data Engineers, Data Scientists, and Analysts to work securely within their defined roles.
+
+
+## 3. Databricks Workspace Navigation
 
 ### Answer
 
 
-## 3. Clusters: Creation, Configuration, and Management
+## 4. Clusters: Creation, Configuration, and Management
 
 ### Answer
 
 
-## 4. Notebooks: Creating, Organizing, and Sharing
+## 5. Notebooks: Creating, Organizing, and Sharing
 
 ### Answer
 
 
-## 5. Databricks Runtime and Unity Catalog Overview
+## 6. Databricks Runtime and Unity Catalog Overview
 
 ### Answer
